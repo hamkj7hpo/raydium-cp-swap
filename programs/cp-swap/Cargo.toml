@@ -21,15 +21,16 @@ idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
 
 [dependencies]
 anchor-lang = "0.30.0"
-anchor-spl = "0.30.0"
+anchor-spl = { version = "0.30.0", features = ["memo"] }
 solana-program = "^1.16"
-spl-token-2022 = { version = "0.9.0", default-features = false }
+spl-token-2022 = { version = "0.9.0", features = ["zk-ops"] }
 spl-math = "0.2.0"
+arrayref = "0.3.6"
+uint = "0.9.5"
+bytemuck = { version = "1.4.0", features = ["derive", "min_const_generics"] }
 
 [dev-dependencies]
-quickcheck = "1.0.3"
-proptest = "1.0"
-rand = "0.9.0"
+# Empty to avoid transitive conflicts
 
 [profile.release]
 lto = "fat"
