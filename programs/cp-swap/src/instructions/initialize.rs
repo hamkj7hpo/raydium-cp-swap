@@ -265,7 +265,7 @@ pub fn initialize(
 
     CurveCalculator::validate_supply(token_0_vault.amount, token_1_vault.amount)?;
 
-    let liquidity = U128::from(token_0_vault.amount)
+    let liquidity = uint::U128::from(token_0_vault.amount)
         .checked_mul(token_1_vault.amount.into())
         .unwrap()
         .integer_sqrt()

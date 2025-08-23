@@ -192,7 +192,7 @@ pub fn is_supported_mint(mint_account: &InterfaceAccount<Mint>) -> Result<bool> 
             && e != ExtensionType::MetadataPointer
             && e != ExtensionType::TokenMetadata
             && e != ExtensionType::InterestBearingConfig
-            && e != ExtensionType::ScaledUiAmount
+//            && e != ExtensionType::ScaledUiAmount
         {
             return Ok(false);
         }
