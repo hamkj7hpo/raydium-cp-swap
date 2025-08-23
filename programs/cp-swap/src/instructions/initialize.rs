@@ -2,7 +2,7 @@ use crate::curve::CurveCalculator;
 use crate::error::ErrorCode;
 use crate::states::*;
 use crate::utils::*;
-use crate::utils::math::U128; 
+use crate::utils::U128;
 use anchor_lang::{
     accounts::interface_account::InterfaceAccount,
     prelude::*,
@@ -266,7 +266,7 @@ pub fn initialize(
 
     CurveCalculator::validate_supply(token_0_vault.amount, token_1_vault.amount)?;
 
-    let liquidity = uint::U128::from(token_0_vault.amount)
+let liquidity = U128::from(token_0_vault.amount)
         .checked_mul(token_1_vault.amount.into())
         .unwrap()
         .integer_sqrt()
