@@ -23,7 +23,7 @@ idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
 anchor-lang = "0.31.0"
 anchor-spl = { version = "0.31.0", features = ["memo"] }
 solana-program = "2.3.0"
-spl-token-2022 = { git = "https://github.com/hamkj7hpo/token-2022.git", rev = "52a4f72e21fb4dbdf9c599adae4faf8b9b9b376b", features = ["zk-ops"] }
+spl-token-2022 = { git = "https://github.com/hamkj7hpo/token-2022.git", rev = "7d5645a3150ae151a56e8e70dcb64b798b83002d", features = ["zk-ops"] }
 spl-math = "0.3.0"
 spl-pod = "0.5.1"
 arrayref = "0.3.6"
