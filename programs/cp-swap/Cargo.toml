@@ -47,7 +47,7 @@ incremental = false
 codegen-units = 1
 
 [patch.crates-io]
-spl-discriminator = { git = "https://github.com/hamkj7hpo/solana-program-library", rev = "c15babbdf" }
+spl-discriminator = { git = "https://github.com/hamkj7hpo/solana-program-library", rev = "<new-spl-hash>" }
 spl-type-length-value = { version = "0.7.0" }
 spl-token-group-interface = { version = "0.2.4" }
 spl-token-metadata-interface = { version = "0.3.4" }
