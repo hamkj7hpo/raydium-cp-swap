@@ -22,7 +22,7 @@ idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
 [dependencies]
 anchor-lang = "0.31.0"
 anchor-spl = { version = "0.31.0", features = ["memo"] }
-solana-program = "2.3.6"
+solana-program = "2.3.0"
 spl-token-2022 = { git = "https://github.com/hamkj7hpo/token-2022.git", rev = "52a4f72e21fb4dbdf9c599adae4faf8b9b9b376b", features = ["zk-ops"] }
 spl-math = "0.3.0"
 spl-pod = "0.5.1"
