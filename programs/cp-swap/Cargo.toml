@@ -20,15 +20,15 @@ client = []
 idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
 
 [dependencies]
-anchor-lang = { git = "https://github.com/hamkj7hpo/anchor.git", rev = "dbfdadca848af65a4bd8b48b777a30ca9af1430d", features = ["init-if-needed"] }
+anchor-lang = { git = "https://github.com/hamkj7hpo/anchor.git", rev = "5cf7738000adea3e58cae5fd99dd66ea045a9c31", features = ["init-if-needed"] }
 anchor-spl = { git = "https://github.com/hamkj7hpo/anchor.git", rev = "5cf7738000adea3e58cae5fd99dd66ea045a9c31", features = ["memo"] }
 solana-program = { git = "https://github.com/hamkj7hpo/solana.git", rev = "5208a7870826307290c30b7d80768f40267433a1" }
-spl-token-2022 = { git = "https://github.com/hamkj7hpo/token-2022.git", rev = "2099caa13da83a3c3f968abba43f15cadd677aff" }
+spl-token-2022 = { git = "https://github.com/hamkj7hpo/token-2022.git", branch = "safe-pump-compat", features = ["no-entrypoint"] }
 spl-math = "0.3.0"
 spl-pod = "0.4.0"
 arrayref = "0.3.6"
-uint = "0.9.5"
 bytemuck = { version = "1.18.0", features = ["derive"] }
+uint = "0.9.5"
 bincode = "1.3.3"
 zeroize = "1.0.0"
 
