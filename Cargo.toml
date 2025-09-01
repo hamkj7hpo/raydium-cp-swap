@@ -13,8 +13,8 @@ incremental = false
 codegen-units = 1
 
 [patch.crates-io]
-anchor-lang = { git = "https://github.com/hamkj7hpo/anchor.git", rev = "29865960ec86579ad40fcd1b3cb9d5a6d81b5401" }
-anchor-spl = { git = "https://github.com/hamkj7hpo/anchor.git", rev = "76b4be2c1c56b3bebabc8aee4be199d7ef7feea0", default-features = false }
+anchor-lang = { git = "https://github.com/hamkj7hpo/anchor.git", rev = "e6d7dafe12da661a36ad1b4f3b5970e8986e5321" }
+anchor-spl = { git = "https://github.com/hamkj7hpo/anchor.git", rev = "e6d7dafe12da661a36ad1b4f3b5970e8986e5321", default-features = false }
 solana-program = { git = "https://github.com/solana-labs/solana.git", rev = "b1e378009ffee4c75965723d3317fccbebcf2524" }
 spl-token-2022 = { git = "https://github.com/hamkj7hpo/token-2022.git", rev = "8e65bc7ef9b22a5f0765c22e4b2ae4b3652bc2b6", package = "spl-token-2022", default-features = false }
 spl-pod = { git = "https://github.com/hamkj7hpo/spl-pod.git", rev = "2a06f4de210a65d19e141e10da02148ab88479d1", default-features = false }
