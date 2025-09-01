@@ -14,11 +14,11 @@ codegen-units = 1
 
 [patch.crates-io]
 anchor-lang = { git = "https://github.com/hamkj7hpo/anchor.git", rev = "29865960ec86579ad40fcd1b3cb9d5a6d81b5401" }
-anchor-spl = { git = "https://github.com/hamkj7hpo/anchor.git", rev = "926bbc732886ed53f4f0328f06eb4269a38b1c4b", default-features = false }
-solana-program = { git = "https://github.com/hamkj7hpo/solana.git", rev = "bcc398b87fbe0905d1a847cb94a264ecfaa5e95d" }
+anchor-spl = { git = "https://github.com/hamkj7hpo/anchor.git", rev = "76b4be2c1c56b3bebabc8aee4be199d7ef7feea0", default-features = false }
+solana-program = { git = "https://github.com/solana-labs/solana.git", rev = "b1e378009ffee4c75965723d3317fccbebcf2524" }
 spl-token-2022 = { git = "https://github.com/hamkj7hpo/token-2022.git", rev = "8e65bc7ef9b22a5f0765c22e4b2ae4b3652bc2b6", package = "spl-token-2022", default-features = false }
 spl-pod = { git = "https://github.com/hamkj7hpo/spl-pod.git", rev = "2a06f4de210a65d19e141e10da02148ab88479d1", default-features = false }
-solana-zk-sdk = { git = "https://github.com/hamkj7hpo/zk-elgamal-proof.git", rev = "f1cbced89e36485555c27379c9493781c7954d03", package = "solana-zk-sdk" }
+solana-zk-sdk = { git = "https://github.com/hamkj7hpo/zk-elgamal-proof.git", rev = "dbf35cedc6fc54f9773b99271bd50f4e89555293", package = "solana-zk-sdk" }
 spl-discriminator = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "f86fefd752bc4ca50adc8f06cd9ba579326c769e", package = "spl-discriminator" }
 spl-type-length-value = { git = "https://github.com/hamkj7hpo/spl-type-length-value.git", rev = "4b3bbe88bfdea370b16e20b96e5145035580d2c6", package = "spl-type-length-value" }
 spl-tlv-account-resolution = { git = "https://github.com/hamkj7hpo/spl-type-length-value.git", rev = "4b3bbe88bfdea370b16e20b96e5145035580d2c6", package = "spl-tlv-account-resolution" }
