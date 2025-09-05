@@ -17,6 +17,8 @@ spl-token-metadata-interface = { git = "https://github.com/hamkj7hpo/token-metad
 spl-transfer-hook-interface = { git = "https://github.com/hamkj7hpo/transfer-hook.git", rev = "7be529916806e8693d6fb2622db31e5d463e9f79", package = "spl-transfer-hook-interface" }
 
 
+
+
 [profile.release]
 overflow-checks = true
 lto = "fat"
