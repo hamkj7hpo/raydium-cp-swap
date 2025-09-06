@@ -12,6 +12,7 @@ members = ["programs/*", "client"]
 
 
 
+
 [profile.release]
 overflow-checks = true
 lto = "fat"
