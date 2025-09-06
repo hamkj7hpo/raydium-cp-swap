@@ -19,6 +19,8 @@ spl-transfer-hook-interface = { git = "https://github.com/hamkj7hpo/transfer-hoo
 
 
 
+
+
 [profile.release]
 overflow-checks = true
 lto = "fat"
